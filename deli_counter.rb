@@ -7,6 +7,6 @@ def line(name_array)
 
       line_array << "#{index+1}. #{name}"
     end
-    puts "The line is currently: #{line_array.inspect}"
+    puts "The line is currently: #{line_array.}.inspect"
   end
 end
