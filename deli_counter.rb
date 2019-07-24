@@ -6,6 +6,6 @@ def line(name_array)
     name_array.each_with_index do |(name, index)|
       line_array << "Welcome, #{name}. You are number #{index+1} in line."
     end
-    puts " #{line_array}
+    puts "#{line_array}"
   end
 end
