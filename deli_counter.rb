@@ -6,7 +6,7 @@ def line(name_array)
     name_array.each_with_index do |name, index|
       line_array << "#{index+1}. #{name}"
     end
-    new_line_array = line_array.inspect
-    puts "The line is currently: #{new_line_array}"
+    #puts "The line is currently: #{line_array}"
+    puts line_array.inspect
   end
 end
