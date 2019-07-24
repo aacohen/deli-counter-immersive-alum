@@ -20,6 +20,6 @@ def now_serving(list)
     puts "There is nobody waiting to be served!"
   else
     puts "Currently serving #{list[0]}."
-    list.unshift
+    list.shift
   end
 end
