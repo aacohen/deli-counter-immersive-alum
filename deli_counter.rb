@@ -1,5 +1,5 @@
 def line(name_array)
-  if name_array.empty
+  if name_array.empty?
     puts "The line is currently empty."
   else
     name_array.each_with_index do |(name, index)|
