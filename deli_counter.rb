@@ -14,3 +14,12 @@ def take_a_number(list, name)
   list.push("#{name}")
 puts "Welcome, #{name}. You are number #{list.length} in line."
 end
+
+def now_serving(list)
+  if list.empty?
+    puts "There is nobody waiting to be served!"
+  else
+    puts "Currently serving #{list[0]}."
+    list.unshift
+  end
+end
