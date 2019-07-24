@@ -4,7 +4,7 @@ def line(name_array)
     puts "The line is currently empty."
   else
     name_array.each_with_index do |name, index|
-      line << (" #{index+1}. #{name} ")
+      line << (" #{index+1}. #{name}")
     end
     puts line
   end
