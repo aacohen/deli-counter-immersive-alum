@@ -4,7 +4,8 @@ def line(name_array)
     puts "The line is currently empty."
   else
     name_array.each_with_index do |(name, index)|
-      line_array << "Welcome, #{name}. You are number #{index+1} in line."
+      place_in_line = index+1
+      line_array << "Welcome, #{name}. You are number #{place_in_line} in line."
     end
     puts "#{line_array}"
   end
