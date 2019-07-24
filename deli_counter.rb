@@ -6,7 +6,11 @@ def line(name_array)
     name_array.each_with_index do |name, index|
       line_array.push("#{index+1}. #{name}")
     end
-    #puts "The line is currently: #{line_array}"
-    puts line_array.inspect
+    puts "The line is currently: #{line_array}"
   end
+end
+
+def take_a_number(array, name)
+  array << name
+puts "Welcome, #{name}. You are number #{array.length -1} in line."
 end
